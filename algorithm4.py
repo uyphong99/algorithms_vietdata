@@ -50,7 +50,7 @@ class Solution:
         general_prob = 0
         for i in range(simulation_time):
             matrix = self.generate_matrix(19, 5, 18)
-            general_prob += (self.count_string_cells(matrix, 2) / 18) / simulation_time
+            general_prob += (self.count_string_cells(matrix, thresh_hold) / 18) / simulation_time
         return general_prob
 
     
