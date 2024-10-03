@@ -18,7 +18,7 @@ class Solution:
 
     def simulate_2dice(self, trials: int):
         results = []
-        list_head = [11, 16, 66]
+        list_head = [11, 16, 61, 66]
         for _ in range(trials):
             count = 0
             consecutive_heads = 0
